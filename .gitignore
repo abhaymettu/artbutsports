@@ -1,0 +1,20 @@
+# Data: images, embeddings, trained model, scraped pairs — large and not redistributable.
+# Rebuild locally by following the README (fetch_wikiart.py, gallery-dl, embed_*, train_taste).
+data/
+
+# Virtualenv
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local test inputs / generated previews
+test*.jpg
+match_preview.jpg
+
+# OS / editor cruft
+.DS_Store
+*.swp

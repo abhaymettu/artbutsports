@@ -1,0 +1,7 @@
+sentence-transformers
+torch
+pillow
+numpy
+requests
+datasets        # bulk WikiArt gallery (fetch_wikiart.py)
+gallery-dl       # scrape the curator's pairs from X (see README)
